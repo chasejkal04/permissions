@@ -1,0 +1,407 @@
+groups:
+  Default:
+    options:
+      prefix: '&7Default &7'
+      default: true
+    permissions:
+    - moretp.commandrtp.Survival
+    - moretp.quickrtp.Survival
+    - rtp.teleport
+    - provotes.links
+    - essentials.warps.nether
+    - crazyenchantments.limit.5
+    - crazyenchantments.info
+    - crazyenchantments.access
+    - crazyenchantments.blacksmith
+    - crazyenchantments.tinker
+    - silkspawners.place.*
+    - silkspawners.silkdrop.*
+    - essentials.motd
+    - litebans.notify
+    - essentials.spawn
+    - essentials.home
+    - essentials.sethome
+    - noPerms
+    - item2chat.use
+    - crazyauctions.sell
+    - crazyauctions.access
+    - crazyauctions.bid
+    - btc.use
+    - factions.kit.halfplayer
+    - factions.kit.fullplayer
+    - RepairPlus.use.*
+    - guibalance.use
+    - jobs.max.3
+    - jobs.use
+    - itemstacker.stack.WATER_BUCKET
+    - itemstacker.stack.LAVA_BUCKET
+    - itemstacker.use
+    - crazyauctions.sell.5
+    - trading.trade
+    - ChestShop.shop.*
+    - lavasponge.place
+    - lavasponge.break
+    - trademe.itembypass
+    - trademe.commandoffer
+    - trademe.shiteoffer
+    - silkspawners.craft.*
+    - scaffold.place.*
+    - trademe.command.accept
+    - trademe.command.deny
+    - bountyhunters.gui
+    - bountyhunters.add
+    - bountyhunters.claim
+    - bountyhunters.leaderboard-gui
+    - morefish.top
+    - morefish.shop
+    - trademe.blockbypass
+    - trademe.shitoffer
+    - trademe.trade
+    - essentials.seen
+    - moretp.accept.*
+    - moretp.tpa
+    - moretp.tpahere
+    - moretp.tptoggle
+    - moretp.warp.*
+    - moretp.warps.*
+    - moretp.warp
+    - moretp.admin.hide
+    - moretp.admin.silent
+    - moretp.open.gui
+    - moretp.cooldown.bypass
+    - CustomEnderChest.level.0
+    - CustomEnderChest.commands
+    - bar.bar
+    - essentials.warps.auction
+    - essentials.warps.bar
+    - essentials.warps.mine
+    - essentials.warps.pvp
+    - essentials.warps.crates
+    - essentials.warps.enchant
+    - fastcraft.use
+    - essentials.warps.shop
+    - deluxechat.utf
+    - swr.play
+    - essentials.craft
+    - essentials.craftingtable
+    - essentials.bench
+    - essentials.craftingbench
+    - essentials.workbench
+    - essentials.balancetop
+    - guibalance.use
+    - essentials.baltop
+    - essentials.help
+    - previewkit.use
+    - essentials.balance
+    - essentials.msg
+    - essentials.pay
+    - essentials.r
+    - essentials.realname
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
+    - essentials.seen
+    - essentials.kit
+    - essentials.kits
+    - essentials.kits.member
+    - essentials.kits.New
+    - essentials.kits.Daily
+    - essentials.kits.Monthly
+    - essentials.kits.new
+    - shop.buy
+    - shop.sell
+    - shop.enchantments
+    - shop.tab.*
+    - essentials.warp.list
+    - essentials.warp
+    - spawner.upgrade
+    - essentials.balance.others
+    - shopguiplus.shop
+    - shopguiplus.shops.*
+    - essentials.ignore
+    - chatcolor.use
+    - chatcolor.change.self
+    - deluxemenus.menu.*
+    - deluxemenus.open
+  Owner:
+    permissions:
+    - customlist.staff
+    - chatformat.Owner
+    options:
+      prefix: '&4&lOwner &4'
+  Helper:
+    permissions:
+    - chatcolor.color.pink
+    - essentials.enderchest
+    - essentials.realname
+    - litebans.warnings
+    - litebans.unwarn
+    - litebans.warn
+    - litebans.unmute
+    - litebans.tempmute
+    - litebans.mute
+    - essentials.afk
+    - gmute.bypass
+    - staff.chat
+    - essentials.seen
+    - essentials.helpop.receive
+    - essentials.socialspy
+    - essentials.invsee
+    - essentials.fly
+    inheritance:
+    - Default
+    options:
+      prefix: '&e&lHelper &e'
+      rank: '200'
+      weight: '60'
+  Moderator:
+    permissions:
+    - plotme.admin.bypassdeny
+    - HCTeams.Alert
+    - HCTeams.Freeze
+    - essentials.worlds.freeworld
+    - essentials.worlds.plotworld
+    - essentials.worlds.world
+    - AntiAd.alert
+    - antispam.bypass
+    - staff.staffchat
+    - staff.member
+    - essentials.chat.url
+    - staff.mode
+    - staff.alerts.mention
+    - chatex.bypassadv
+    - report.see
+    - nocheatplus.command.notify
+    - bossmessenger.list.default
+    - staffGUI.staff
+    - staffGUI.ADD
+    - essentials.unbanip
+    - chatcolor.color.aqua
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.seen.banreason
+    - essentials.seen.extra
+    - essentials.seen.ipsearch
+    - essentials.banip
+    - essentials.enderchest
+    - essentials.tp.others
+    - essentials.tp
+    - nightvision.use
+    - essentials.realname
+    - essentials.realnamet
+    - essentials.jail
+    - essentials.jails
+    - litebans.*
+    - essentials.afk
+    - essentials.ban.offline
+    - essentials.tempban.offline
+    - sv.use
+    - gmute.bypass
+    - essentials.socialspy
+    - essentials.socialspy.toggle
+    - staff.chat
+    - essentials.unban
+    - essentials.fly
+    - essentials.helpop.receive
+    - essentials.invsee
+    - essentials.seen
+    inheritance:
+    - Default
+    options:
+      prefix: '&9&lMod &9'
+      rank: '200'
+      weight: '60'
+  Admin:
+    permissions:
+    - antispam.bypass
+    - tab.group.Admin
+    - dc.tienda
+    - litebans.exempt.bypass.ban
+    - gmute.mute
+    - gmute.bypass
+    - essentials.fly
+    - essentials.tp.others
+    - essentials.tphere
+    - essentials.tp
+    - report.see
+    - sv.vanish
+    - essentials.v
+    - essentials.invsee.others
+    - essentials.inventorysee
+    - essentials.invsee
+    - sv.others
+    - sv.use
+    - essentials.socialspy
+    - essentials.broadcast.color
+    - essentials.broadcast
+    - essentials.tempban.offline
+    - essentials.ban.offline
+    - essentials.ban
+    - essentials.tempban
+    - essentials.mute
+    - essentials.kick
+    - staff.chat
+    - chatformat.Admin
+    inheritance:
+    - Default
+    options:
+      prefix: '&c&lAdmin &c'
+      rank: '200'
+      weight: '60'
+  Donator:
+    permissions:
+    - essentials.hat
+    - crazyauctions.sell.10
+    - customlist.donor
+    - essentials.enderchest
+    - CustomEnderChest.level.1
+    - CustomEnderChest.commands
+    - essentials.kits.Donator
+    - essentials.warps.Donator
+    - essentials.feed
+    - essentials.heal
+    inheritance:
+    - Default
+    options:
+      prefix: '&aDonor &a'
+      weight: '100'
+  Lord:
+    permissions:
+    - essentials.hat
+    - customlist.donor
+    - crazyauctions.sell.15
+    - essentials.enderchest
+    - essentials.feed
+    - essentials.keepxp
+    - essentials.heal
+    - essentials.clearinventory
+    - CustomEnderChest.level.2
+    - CustomEnderChest.commands
+    - chatformat.Convict
+    - essentials.kits.Lord
+    - essentials.warps.Lord
+    inheritance:
+    - Default
+    options:
+      prefix: '&dLord &d'
+      weight: '100'
+  Titan:
+    permissions:
+    - essentials.hat
+    - crazyauctions.sell.20
+    - customlist.donor
+    - essentials.enderchest
+    - essentials.feed
+    - essentials.heal
+    - essentials.clearinventory
+    - essentials.keepxp
+    - minecrates.rewards.world.donator
+    - chatformat.Guard
+    - essentials.kits.Titan
+    - CustomEnderChest.level.3
+    - CustomEnderChest.commands
+    - essentials.warps.Titan
+    inheritance:
+    - Default
+    options:
+      prefix: '&bTitian &b'
+      weight: '100'
+  Legacy:
+    permissions:
+    - essentials.hat
+    - customlist.donor
+    - crazyauctions.sell.25
+    - essentials.enderchest
+    - deliveryman.reward.Legacy
+    - essentials.feed
+    - CustomEnderChest.level.4
+    - CustomEnderChest.commands
+    - essentials.heal
+    - essentials.clearinventory
+    - essentials.keepxp
+    - minecrates.rewards.world.donator
+    - chatformat.Politician
+    - essentials.kits.Legacy
+    - essentials.warps.Legacy
+    inheritance:
+    - Default
+    options:
+      prefix: '&f&lLegacy &f'
+      weight: '100'
+  God:
+    permissions:
+    - essentials.hat
+    - customlist.donor
+    - crazyauctions.sell.30
+    - essentials.enderchest
+    - CustomEnderChest.level.5
+    - CustomEnderChest.commands
+    - essentials.feed
+    - essentials.heal
+    - essentials.clearinventory
+    - essentials.keepxp
+    - essentials.kits.God
+    - essentials.warps.God
+    - essentials.repair
+    inheritance:
+    - Default
+    options:
+      prefix: '&e&lGOD &e'
+      weight: '100'
+  Overlord:
+    permissions:
+    - essentials.hat
+    - crazyauctions.sell.50
+    - essentials.enderchest
+    - essentials.feed
+    - CustomEnderChest.level.5
+    - CustomEnderChest.commands
+    - customlist.donor
+    - essentials.heal
+    - essentials.clearinventory
+    - essentials.keepxp
+    - essentials.kits.Overlord
+    - essentials.warps.Overlord
+    - essentials.repair
+    inheritance:
+    - Default
+    options:
+      prefix: '&d&k:&d &lOVERLORD &d&k:&r &d'
+      weight: '100'
+  Youtuber:
+    permissions:
+    - customlist.youtube
+    - essentials.kits.youtuber
+    - deliveryman.reward.Hero
+    - essentials.feed
+    - essentials.keepxp
+    - essentials.clearinventory
+    inheritance:
+    - Default
+    options:
+      prefix: '&c&lYOUTUBER&f &f'
+      weight: '100'
+  Developer:
+    options:
+      prefix: '&e&lDev &e'
+  TDeveloper:
+    options:
+      prefix: '&e&lT-Dev &e'
+    inheritance:
+    - Default
+schema-version: 1
+users:
+  5f5126a4-ca6c-482f-a861-36b039248dc8:
+    group:
+    - Owner
+    permissions:
+    - '*'
+    options:
+      name: madwolfpack
+  8f2874c8-71fa-4d21-8f6b-b168fed86a52:
+    group:
+    - Youtuber
+  35fcf0fc-16b2-4af0-b70e-e9b6e17add33:
+    group:
+    - TDeveloper
